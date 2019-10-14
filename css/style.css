@@ -57,7 +57,7 @@ width: 15%;
    width: 60%;
    display: flex;
    align-content: center;
-   padding: 30px ;
+   padding: 40px ;
 }
 .pink-div-image{
     width: 50%;
@@ -85,25 +85,18 @@ width: 15%;
         width: 10%;
      }
 }
-@media(max-width:550px){
-    .makeup-div{
-        padding: 20px;
+@media(max-width:500px){
+    .aesthetic-section{
+        flex-wrap: wrap;
     }
+
     .pink-div-image{
         margin-right: 2px;
-    }
-}
-@media (max-width: 500px){
-    .pink-div1 {
-        width: 15%;
     }
     .makeup-div {
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
-    }
-    .pink-div2 {
-        width: 15%;
     }
     .pink-div-image2 {
         width: 100%;
@@ -112,8 +105,9 @@ width: 15%;
     .pink-div-image {
         width: 100%;
         margin-right: 0;
-    }
+    } 
 }
+
 
 
 
