@@ -18,14 +18,16 @@
 
 /*logo section*/
 .logo-display{
-
+margin-top: 8%;
     display: flex;
     justify-content: center;
     align-content: center;
 }
+.logo-div{
+    width: 20%;
+}
 .main-logo{
-    max-width: 180px;
-    margin: 20px;
+    width: 100%;
     
  }    /*responsive */
  @media (max-width: 750px){
@@ -59,24 +61,42 @@ width: 15%;
    align-content: center;
    padding: 40px ;
 }
-.pink-div-image{
+
+/* .pink-div-image-div{
     width: 50%;
     margin-right: 10px;
 }
-.pink-div-image2{
+.pink-div-image{
+  width: 100%;
+} */
+.pink-div-image2-div{
     width: 50%;
+    margin-left: 1%;;
     
 }
+.pink-div-image2{
+    width: 100%;
+}
 /*responsive */
-
-@media(max-width: 980px){
+@media(max-width:750px){
+    .makeup-div{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .aesthetic-section{
+        margin-top: 8%;
+    }
+}
+/* @media(max-width: 980px){
     .makeup-div{
         width: 80%;
      }
-}
+} */
 @media(max-width: 600px){
     .makeup-div{
         width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .pink-div1{
        width: 10%;
@@ -84,6 +104,13 @@ width: 15%;
     .pink-div2{
         width: 10%;
      }
+     .aesthetic-section{
+        flex-wrap: wrap;
+    }
+    .pink-div-image2-div {
+        width: 57%;
+        margin-left: 0;
+    }
 }
 @media(max-width:500px){
     .aesthetic-section{
@@ -98,14 +125,9 @@ width: 15%;
         align-content: center;
         justify-content: center;
     }
-    .pink-div-image2 {
-        width: 80%;
-        margin-top: 10px;
+    .pink-div-image2-div {
+        width: 66%;
     }
-    .pink-div-image {
-        width: 80%;
-        margin-right: 0;
-    } 
 }
 
 
@@ -113,8 +135,8 @@ width: 15%;
 
 /*makeup description*/
 .makeup-description {
-    margin-top: 80px;
-
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .makeup-is-art-img{
@@ -168,8 +190,13 @@ width: 100%;
         width: 100%;
     }
     .makeup-is-art-img {
-        width: 66%;
+        width: 55%;
         margin-bottom: 40px;
+    }
+}
+@media(max-width:500px){
+    .makeup-is-art-img {
+        width: 66%;
     }
 }
 @media(max-width:720px){
@@ -192,12 +219,7 @@ width: 100%;
         width: 70%;
     }
 }
-/* @media(max-width:500px){
-    
-    .makeup-descript-div {
-        width: 85%;
-    }
-} */
+
 
 /* MY MAKEUP LOOK */
 .my-looks-div{
@@ -274,7 +296,7 @@ width: 100%;
 .footer{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    margin-top: 60px;
+    margin-top: 15%;
 }
 .more-about-me{
     padding: 8px;
