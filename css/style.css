@@ -114,29 +114,19 @@ width: 15%;
 /*makeup description*/
 .makeup-description {
     margin-top: 80px;
-    margin-bottom: 80px;
 
 }
+
 .makeup-is-art-img{
-    display: flex;
-    width: 50%;
+width: 50%;
+display: flex;
+justify-content: center;
 }
 .bare-eye-div{
-    display: flex;
-    justify-content: center;
     width: 50%;
-    padding-bottom: 4%;
 }
 .bare-eye{
-    width: 70%;
-}
-.yellow-eye-div{
-    width: 50%;
-    padding-top: 2%;
-}
-.yellow-eye{
-    width: 70%;
-  
+width: 100%;
 }
 .makeup-descript-div{
     width: 50%;
@@ -161,11 +151,25 @@ width: 15%;
     font-family: 'Open Sans', sans-serif;
 }   /*responsive */
 @media(max-width:830px){
-    .yellow-eye {
-        width: 80%;
+
+    .bare-eye-div {
+        width: 60%;
     }
-    .bare-eye {
-        width: 80%;
+}
+@media(max-width:740px){
+
+    .bare-eye-div {
+        width: 70%;
+    }
+}
+@media(max-width:600px){
+
+    .bare-eye-div {
+        width: 100%;
+    }
+    .makeup-is-art-img {
+        width: 66%;
+        margin-bottom: 40px;
     }
 }
 @media(max-width:720px){
@@ -173,9 +177,7 @@ width: 15%;
         flex-wrap: wrap;
     justify-content: center;
     }
-    .makeup-is-art-img{
-         width: 70%;
-    }
+
     .makeup-descript-div{
         width: 70%;
         margin-top: 30px;
@@ -185,35 +187,17 @@ width: 15%;
     }
 }
 @media(max-width:750px){
-    .makeup-is-art-img{
-        width: 75%;
-    }
-    .bare-eye-div{
-        width: 100%;  
-    }
-    .bare-eye{
-        width: 80%;
-    }
-    .yellow-eye-div{
-        width: 100%;
-        padding-top: 2%;
-    }
-    .yellow-eye{
-        width: 80%;
-      
-    }
+ 
     .makeup-descript-div{
-        width: 75%;
+        width: 70%;
     }
 }
-@media(max-width:500px){
-    .makeup-is-art-img {
-        width: 95%;
-    }
+/* @media(max-width:500px){
+    
     .makeup-descript-div {
         width: 85%;
     }
-}
+} */
 
 /* MY MAKEUP LOOK */
 .my-looks-div{
