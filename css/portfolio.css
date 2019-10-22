@@ -38,7 +38,6 @@
      color: black;
      font-size: 15px;
      font-weight: bold;
-     font-family: 'Open Sans', sans-serif;
      letter-spacing: 1px;
      text-underline-position: none;
  }
@@ -126,6 +125,37 @@ font-size: 18px;
    text-decoration: none; 
    text-decoration-color: black;
 }  
+
+/* //////////////////////full face makeup looks/////////////////// */
+.full-face-makeup{
+    margin-right: 0px;
+    margin-left: 0px; 
+    margin-top: 60px;
+}
+
+.full-face-makeup-img-div{
+display: flex;
+justify-content: center;
+
+}
+.full-face-makeup-img{
+width: 60%;
+}
+.full-face-makeup-title-div{
+display: flex;
+justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
         /* //////////////////////////responsive//////////////////////////////// */
