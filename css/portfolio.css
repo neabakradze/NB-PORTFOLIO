@@ -127,53 +127,6 @@ font-size: 18px;
    text-decoration-color: black;
 }  
 
-/* //////////////////////full face makeup looks/////////////////// */
-.full-face-makeup{
-    margin-right: 0px;
-    margin-left: 0px; 
-    margin-top: 60px;
-}
-
-.full-face-makeup-img-div{
-display: flex;
-justify-content: center;
-margin: 0 auto;
-width: 60%;
-}
-.full-face-makeup-img{
-width: 100%;
-border: #af7979 solid 4px;
-}
-.full-face-makeup-img:hover{
-    border: #af7979 dotted 4px;
-    }
-.full-face-makeup-title-div{
-display: flex;
-justify-content: center;
-font-weight: bold;
-margin-top: 2%;
-font-size: 18px;
-}
-.full-face-makeup-title-div:hover{
-  color: #af7979 ;
-    }
-
-@media (max-width:770px){
-    .margin-top{
-        margin-top: 50px;
-    }
-}
-@media (max-width:520px){
-    .full-face-makeup-img-div{
-        width: 70%;
-        }
-}
-@media (max-width:420px){
-    .full-face-makeup-img-div{
-        width: 80%;
-        }
-}
-
 
 
 
